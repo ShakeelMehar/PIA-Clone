@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Air Line</title>
+    <link rel="icon" type="image/png" href="/Pia/Images/Pia Icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<!-- Main Body -->
+
+<body id="mainBody">
+    <header>
+        <!-- Header Navbar Starts -->
+        <nav class="navbar">
+            <div class="pia-Logo">
+                <img src="Images/Pia-Logo.png" alt="">
+            </div>
+            <div class="mem-menu">
+                <ul>
+                    <li><a href="#">Press Release</a></li>
+                    <span>&#124;</span>
+                    <li><a href="#">Contact Us</a></li>
+                    <span>&#124;</span>
+                    <li><a href="#" id="member">Member Log In</a></li>
+                    <span>&#124;</span>
+                    <li><a href="#">Corporate Website</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="menu-drop-li">
+                        <a href="#">Where We Fly</a>
+
+                    </li>
+                    <li class="menu-drop-li">
+                        <a href="#">Experience</a>
+
+                    </li>
+                    <li class="menu-drop-li">
+                        <a href="#">Awards +Plus</a>
+
+                    </li>
+                    <li class="menu-drop-li">
+                        <a href="#">Deals</a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Navbar End -->
+    <!-- Main Display Starts Here -->
+    <div class="display-img">
+        <img src="Images/baku.jpg" alt="BAKU Image" id="main-img">
+        <div class="flight-menu">
+            <div class="menu-outer">
+                <div class="menu-top-btn">
+                    <a href="#" class="active">Flight</a>
+                    <a href="#">Schedules</a>
+                    <a href="#">web Check-In</a>
+                    <a href="#">Flght Status</a>
+                    <a href="#">My Booking</a>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="radio">
+                    <span>Return</span>
+                    <input type="radio" name="radio">
+                    <span>Oneway</span>
+                    <input type="radio" name="radio">
+                    <span>Multicity</span>
+                </div>
+                <div class="info-form">
+                    <select id="from-city">
+                        <option value="From: Airport & City">From: Airport & City</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="">Azerbaijan</option>
+                        <option value="">Behrain</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">Canada</option>
+                        <option value="">China</option>
+                        <option value="">France</option>
+                    </select>
+                    <select id="to-city">
+                        <option value="To: Airport & City">To: Airport & City</option>
+                        <option value="">Australia</option>
+                        <option value="">Austria</option>
+                        <option value="">Azerbaijan</option>
+                        <option value="">Behrain</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">Canada</option>
+                        <option value="">China</option>
+                        <option value="">France</option>
+                    </select> <br>
+                    <input type="text" class="dual-date" onfocus="(this.type='date')"
+                        placeholder="Select Departure Date">
+                    <input type="text" class="dual-date" onfocus="(this.type='date')" placeholder="Select Return Date">
+                    <input type="checkbox" name="check" id="flexible-date">
+                    <span id="flexible-span"> MY DATES ARE FLEXIBLE </span>
+                </div>
+                <div class="passenger-cabin">
+                    <div class="passCabin" id="left-pass">
+                        <span>Passenger(s)</span>
+                        <select class="passCabin-option">
+                            <option value="1 Adult, 0 Child, 0 Infant">1 Adult, 0 Child, 0 Infant</option>
+                            <option value="">1 Adult, 1 Child, 0 Infant</option>
+                            <option value="">1 Adult, 2 Child, 1 Infant</option>
+                            <option value="">2 Adult, 1 Child, 1 Infant</option>
+                            <option value="">2 Adult, 2 Child, 0 Infant</option>
+                        </select>
+                    </div>
+                    <div class="passCabin" id="right-cabin">
+                        <span>Cabin:</span> <br>
+                        <select class="passCabin-option">
+                            <option value="Economy">Economy</option>
+                            <option value="">All</option>
+                            <option value="">Executive Economy</option>
+                            <option value="">Business</option>
+                        </select>
+                        <input type="button" value="Find Flight" id="flight-btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bank">
+        <div>
+            <div class="hbl-left">
+                <img src="Images/HBL-banner-3.jpg" alt="PIA-HBL-Banner">
+            </div>
+            <div class="book-loop">
+                    <img src="Images/PIA_BOOK_HOTEL.gif">
+            </div>
+        </div>
+        <div>
+            <div class="card-right">
+                <img src="Images/Askari_cobrand1.jpg" alt="Askari-Co_brand">
+            </div> <br>
+            <div class="golootlo-loop">
+                    <img src="Images/PIA_Golootlo.gif">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- All Deals Last Work -->
+    <div id="dealsDiv">
+        <p id="allDeals">
+            All Deals
+        </p>
+    </div>
+    <!-- Form Starts Here -->
+    <div id="formDiv">
+        <form id="mainForm">
+            <select id="selectTag">
+                <option value="Lahore">Lahore - Makkah</option>
+                <option value="Lhr">Lahore - Dubai</option>
+                <option value="Karachi">Karachi - Madina</option>
+                <option value="Quetta">Karachi - Quetta</option>
+                <option value="Multan">Multan - Sharjah</option>
+            </select>
+            <input type="datetime-local" id="birthdayTime" name="birthdaytime">
+            <input type="submit" id="searchBtn" value="Search Deals">
+        </form>
+    </div>
+    <div id="valueTextDiv">
+        <p id="valueTextPera">
+            Value Added Services
+        </p>
+    </div>
+    <!-- Images Div Starts Here -->
+    <div id="imagesDiv">
+        <div id="imgDiv1">
+            <img src="Images/Gold Rewards.png" id="rewardsImg">
+            <p id="rewardsPera" class="peraStyle">
+                Gold Rewards
+            </p>
+            <p class="explorePera">
+                Explore More
+            </p>
+        </div>
+        <div id="imgDiv2">
+            <img src="Images/Baggage.png" id="baggageImg">
+            <p id="baggagePera" class="peraStyle">
+                Extra Baggage
+            </p>
+            <p class="explorePera">
+                Explore More
+            </p>
+        </div>
+        <div id="imgDiv3">
+            <img src="Images/Seats.png" id="seatsImg">
+            <p id="seatPera" class="peraStyle">
+                Seat Upgrade
+            </p>
+            <p class="explorePera">
+                Explore More
+            </p>
+        </div>
+    </div>
+    <!-- Footer Starts Here -->
+    <footer id="footer">
+        <div id="facilteDiv" class="footerDivs">
+            <p class="footerHeadingPeras">Facilities</p>
+
+            <p class="footerBtns">Air Passenger Right</p>
+            <p class="footerBtns">Condition of Carriage</p>
+            <p class="footerBtns">Booking Conditions</p>
+            <p class="footerBtns">Traveler's Information</p>
+            <p class="footerBtns">Overseas Pakistanis</p>
+            <p class="footerBtns">Track Your Cargo (Intl.)</p>
+
+        </div>
+        <div id="expDiv" class="footerDivs">
+            <p class="footerHeadingPeras">Experience</p>
+
+            <p class="footerBtns">Cabins</p>
+            <p class="footerBtns">Exective Economy</p>
+            <p class="footerBtns">Economy</p>
+            <p class="footerBtns">Special Assistance</p>
+            <p class="footerBtns">Special Assistance Form</p>
+            <p class="footerBtns">Baggage</p>
+            <p class="footerBtns">Baggage Guide</p>
+            <p class="footerBtns">Advance Purchace Excess</p>
+            <p class="footerBtns">Seat Select</p>
+            <p class="footerBtns">Extra Legroom</p>
+            <p class="footerBtns">Preferred Seat</p>
+            <p class="footerBtns">Magazines</p>
+            <p class="footerBtns">Safety</p>
+            <p class="footerBtns">In-Flight Seat Upgrade</p>
+
+        </div>
+        <div id="linksDiv" class="footerDivs">
+            <p class="footerHeadingPeras">Quick Links</p>
+
+            <p class="footerBtns">Customer Care</p>
+            <p class="footerBtns">Contact Us</p>
+            <p class="footerBtns">FAQs</p>
+            <p class="footerBtns">Site Map</p>
+            <p class="footerBtns">Privacy Policy</p>
+            <p class="footerBtns">Business With PIA</p>
+            <p class="footerBtns">Travel Advisory Updates</p>
+            <p class="footerBtns">Travel Updates and Info</p>
+
+        </div>
+        <div id="connectUs" class="footerDivs">
+            <p class="footerHeadingPeras">Connect With Us</p>
+            <div id="socialIcon">
+                <img src="Images/FB-logo.png" alt="Facebook Logo" class="social">
+                <img src="Images/Twitter-logo.png" alt="Twitter Logo" class="social">
+                <img src="Images/Insta-logo.png" alt="Instagram Logo" class="social">
+                <img src="Images/YT-logo.png" alt="Youtube Logo" class="social">
+            </div>
+            <div id="appStoreLogo">
+                <img src="Images/Play Store + App Store.png" alt="Play Store" id="playStoreImg">
+                <img src="Images/App Gallery.png" alt="App Gallery" id="appGalleryImg">
+            </div>
+        </div>
+        <!-- footer Ending Outro -->
+        <hr id="footerHR">
+        <div id="outroImgDiv">
+            <img src="Images/Pia-Logo.png" alt="PIA Official Logo">
+            <p id="copyRightTxt">
+                &copy; Copyright 2022, Pakistan International Airlines, All Right Reserved!
+            </p>
+        </div>
+        <div id="jamaPunjiDiv">
+            <img src="Images/prime-minster-logo.jpg" alt="Prime Logo" id="mpduImg">
+            <img src="Images/JamaPunji-logo.jpg" alt="JamaPunji logo" id="JamaImg">
+        </div>
+    </footer>
+</body>
+
+</html>

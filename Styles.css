@@ -1,0 +1,502 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.navbar {
+    height: 140px;
+    width: 1060px;
+    margin-left: 420px ;
+}
+
+.pia-Logo {
+    display:inline-block;
+    margin-left: 30px;
+}
+
+.mem-menu {
+    float: right;
+    overflow: auto;
+}
+
+.mem-menu ul {
+    display: flex;
+}
+
+.mem-menu li {
+    font-size: 15px;
+    list-style: none;
+    padding: 0px 13px;
+}
+
+.mem-menu li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(112, 112, 112);
+}
+
+.mem-menu li a:hover {
+    color: rgb(99, 177, 78);
+}
+
+#member {
+    font-size: 18px;
+    color: rgb(99, 177, 78);
+}
+
+.menu {
+    overflow: auto;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    font-size: 17px;
+    list-style: none;
+    padding: 0px 80px;
+}
+
+.menu li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(112, 112, 112);
+}
+
+.menu li a:hover {
+    color: rgb(99, 177, 78);
+}
+
+.display-img {
+    width: 100%;
+}
+
+#main-img {
+    width: 100%;
+    height: 100%;
+}
+
+.flight-menu {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-outer {
+    height: 270px;
+    width: 56%;
+    background:linear-gradient(to bottom, #4ba8de63 1%, #1d3c7563 100%)
+}
+
+.menu-top-btn {
+    height: 45px;
+    width: 100%;
+    background-color: #4ba8de63;
+    overflow: auto;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+
+.menu-top-btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 11px 120px 0px 13.7px;
+    background-color: white;
+}
+
+.menu-top-btn a:hover,
+.menu-top-btn a.active
+ {
+    background-color: rgb(0, 89, 120);
+    color: white;
+}
+
+.menu-img {
+    height: 30px;
+    width: 30px;
+    position:absolute;
+}
+
+.radio {
+    height: 20px;
+    width: 30%;
+    margin: 0 10px;
+    padding: 10px;
+    color: white;
+}
+
+.radio input {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.radio span {
+    font-size: 13px;
+    pointer-events: none;
+}
+
+.info-form {
+    height: 100px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.info-form select {
+    font-size: 12px;
+    padding: 8px;
+    width: 300px;
+    margin: 8px 24.3px;
+}
+
+#from-city,
+#to-city 
+{
+    color: gray;
+    font-size: 12px;
+}
+
+.info-form .dual-date {
+    font-size: 12px;
+    padding: 8px;
+    width: 280px;
+    margin: 10px 24.5px;
+}
+
+#flexible-date {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#flexible-span {
+    vertical-align: middle;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.passenger-cabin {
+    height: 60px;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    gap: 35px;
+}
+
+.passCabin {
+    height: 60px;
+    width: 30%;
+}
+
+.passCabin span {
+    color: white;
+}
+
+#left-pass {
+    margin-left: 43px;
+}
+
+#right-cabin {
+    width: 50%;
+}
+
+.passCabin-option {
+    font-size: 12px;
+    padding: 8px;
+    width: 300px;
+    color: gray;
+    margin: 5px 0;
+}
+
+#flight-btn {
+    height: 33px;
+    width: 190px;
+    margin-left: 27.5px;
+    border: 0.5px solid lightgray;
+    color: white;
+    background-color: rgb(99, 177, 78);
+}
+
+#flight-btn:hover {
+    border: none;
+}
+
+.bank {
+    height: 450px;
+    width: 100%;
+    margin: 35px auto;
+    display: flex;
+}
+
+.bank img {
+    height: 200px;
+    width: 940px;
+    padding: 0 0 0 10px;
+}
+
+.book-loop {
+    margin: 35px auto;
+}
+
+.golootlo-loop img {
+    height: 190px;
+    width: 875px;
+    margin-top: 17px;
+}
+
+
+/* All Deals */
+
+#dealsDiv {
+    height: 55px;
+    width: 1040px;
+    margin: 0 0 0 420px;
+}
+
+#allDeals {
+    font-size: 53px;
+    color: rgb(32, 85, 122);
+    margin: 0;
+    padding: 0%;
+}
+
+#formDiv {
+    height: 110px;
+    width: 1063px;
+    margin: 44px 0 0 420px;
+    background-image: linear-gradient(0deg, #98abc2, #b3ddf0);
+}
+
+#selectTag {
+    height: 31px;
+    width: 330px;
+    border: none;
+    color: gray;
+    padding-left: 8px;
+    margin: 34px 0 0 118px;
+}
+
+#birthdayTime {
+    height: 31px;
+    width: 319px;
+    border: none;
+    color: gray;
+    padding-left: 8px;
+    margin: 34px 0 0 22px;
+}
+
+#searchBtn {
+    height: 31px;
+    width: 110px;
+    border: none;
+    margin-left: 27px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(99, 177, 78);
+}
+
+#searchBtn:hover {
+    background: rgb(32, 85, 122);
+    color: white;
+}
+
+#valueTextDiv {
+    height: 60px;
+    width: 1040px;
+    margin: 46px 0 0 420px;
+}
+
+#valueTextPera {
+    font-size: 53px;
+    color: rgb(32, 85, 122);
+    margin: 0;
+    padding: 0%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#imagesDiv {
+    height: 400px;
+    width: 1060px;
+    margin: 46px 0 0 420px;
+}
+
+#imgDiv1 {
+    height: 280px;
+    width: 347px;
+    float: left;
+    position: relative;
+}
+
+#imgDiv2 {
+    height: 280px;
+    width: 347px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#imgDiv3 {
+    height: 280px;
+    width: 347px;
+    float: right;
+    right: 0px;
+    bottom: 280px;
+    position: relative;
+}
+
+#rewardsImg {
+    height: 280px;
+    width: 347px;
+    margin: auto;
+}
+
+#baggageImg {
+    height: 280px;
+    width: 347px;
+}
+
+#seatsImg {
+    height: 280px;
+    width: 347px;
+    margin: 0 auto;
+}
+
+.peraStyle {
+    margin: 13px 0 0 0;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(99, 177, 78);
+}
+
+.explorePera {
+    font-size: 18px;
+    cursor: pointer;
+    margin: 11px 0 0 0;
+    color: rgb(32, 85, 122);
+}
+
+.explorePera:hover {
+    color: rgb(99, 177, 78);
+}
+
+#footer {
+    height: 620px;
+    width: 1060px;
+    margin-left: 420px;
+}
+
+.footerDivs {
+    display: inline-block;
+    height: 480px;
+    width: 260px;
+    margin: auto;
+}
+
+#expDiv {
+    position: absolute;
+    margin-left: 7px;
+}
+
+#linksDiv {
+    position: absolute;
+    margin-left: 275px;
+}
+
+#connectUs {
+    position: absolute;
+    margin: 0 0 0 540px;
+}
+
+.footerHeadingPeras {
+    font-size: 30px;
+    color: rgb(99, 177, 78);
+}
+
+.footerBtns {
+    margin: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    color: rgb(112, 112, 112);
+}
+
+.footerBtns:hover {
+    color: rgb(32, 85, 122);
+}
+
+#socialIcon {
+    height: 50px;
+    width: 250px;
+}
+
+.social {
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.social:hover {
+    opacity: 0.7;
+}
+
+#appStoreLogo {
+    height: 300px;
+    width: 250px;
+}
+
+#playStoreImg {
+    height: 110px;
+    width: 170px;
+    margin: 20px 4px;
+    cursor: pointer;
+}
+
+#appGalleryImg {
+    height: 80px;
+    width: 180px;
+    cursor: pointer;
+}
+
+#footerHR {
+    margin-bottom: 0%;
+}
+
+#outroImgDiv {
+    height: 120px;
+    width: 480px;
+    margin: 0%;
+}
+
+#copyRightTxt {
+    margin: 0 0 0 0;
+    font-size: 15px;
+    color: #98abc2;
+}
+
+#jamaPunjiDiv {
+    
+    height: 120px;
+    width: 320px;
+    margin-top:-120px ;
+    float: right;
+}
+
+#mpduImg {
+    height: 60px;
+    width: 100px;
+    margin-left: 110px;
+}
+
+#JamaImg {
+    margin-left: 15px;
+}
